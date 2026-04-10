@@ -1,0 +1,26 @@
+{
+  "serviceName": "payment-processor",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "healthy",
+      "queueSize": 100
+    },
+    "authService": {
+      "status": "healthy",
+      "latencyMs": 20
+    }
+  },
+  "metrics": {
+    "cpuUsagePercentage": 10.5,
+    "memoryUsageBytes": 536870912,
+    "requestsPerSecond": 120,
+    "errorRatePercentage": 0.01
+  }
+}
